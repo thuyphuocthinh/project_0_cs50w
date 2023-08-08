@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Google Advanced Search</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;700&family=Finlandica:wght@400;600;700&family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@300;400;700&family=Nunito:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300;400;500;700&family=Signika+Negative:wght@300;400;700&family=Space+Grotesk:wght@300;400;700&family=Work+Sans:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="./style/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <form action="https://google.com/search" method="get" role="search">
+            <figure>
+                <img src="./img/logo.png" alt="google logo">
+                <span style="right: 2rem;">Advanced Search</span>
+            </figure>
+            <main>
+                <div class="form-group">
+                    <label for="group_1">Find pages with all these words:</label>
+                    <input type="text" name="as_q" id="group_1" placeholder="Type here" autocomplete="off" value>
+                </div>
+                <div class="form-group">
+                    <label for="group_2">Find pages with this exact word or phrase:</label>
+                    <input type="text" name="as_epq" id="group_2" placeholder="Type here" autocomplete="off" value>
+                </div>
+                <div class="form-group">
+                    <label for="group_3">Find pages with any of these words:</label>
+                    <input type="text" name="as_oq" id="group_3" placeholder="Type here" autocomplete="off" value>
+                </div>
+                <div class="form-group">
+                    <label for="group_4">Find pages with none of these words:</label>
+                    <input type="text" name="as_eq" id="group_4" placeholder="Type here" autocomplete="off" value>
+                </div>
+                <input type="submit" value="Advanced Search">
+            </main>
+            <footer>
+                <button>
+                    <a href="./index.html">GOOGLE SEARCH</a>
+                </button>
+                <button>
+                    <a href="./googleImg.html">GOOGLE IMAGE</a>
+                </button>
+            </footer>
+        </form>
+    </div>
+</body>
+
+</html>
